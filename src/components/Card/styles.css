@@ -1,0 +1,31 @@
+.rm-card{
+    background-color: var(--rm-color-bg-header);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 300px;
+    max-height: 300px;
+    max-width: 250px;
+    padding: 20px;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+
+.rm-card img{
+    height: 200px;
+    width: 200px;
+    border-radius: 4px;
+}
+
+.rm-card-content{
+    font-size: 24px;
+    display: flex;
+    color: var(--rm-color-font-card);
+}
+
+.rm-card:hover{
+    border: 1px solid var(--rm-color-accent-hover);
+    cursor: pointer;
+    background-color: var(--rm-color-accent-primary);
+}

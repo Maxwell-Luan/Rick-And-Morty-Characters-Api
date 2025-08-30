@@ -1,0 +1,17 @@
+.rm-home-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.rm-home-title h1{
+    font-size: 48px;
+}
+
+.rm-home-title p{
+    font-size: 24px;
+}

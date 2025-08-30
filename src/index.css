@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@400;500;700&display=swap');
+
+:root {
+  /* 🎨 Backgrounds */
+  --rm-color-bg-primary: #0D1117;   /* fundo principal */
+  --rm-color-bg-secondary: #161B22; /* cards / superfícies */
+  --rm-color-bg-header: #111827;    /* cabeçalho/nav */
+
+  /* 🌟 Acentos */
+  --rm-color-accent-primary: #0891B2; /* botões, links */
+  --rm-color-accent-secondary: #00B4D8; /* ciano suave */
+  --rm-color-accent-hover: #1E40AF;   /* azul marinho forte */
+
+  /* ✍️ Fontes */
+  --rm-color-font-primary: #E5E7EB;   /* texto principal */
+  --rm-color-font-secondary: #9CA3AF; /* descrições/labels */
+  --rm-color-font-accent: #38BDF8;    /* destaques/títulos */
+  --rm-color-font-card: #26d1ba;
+
+  --rm-font-title: 'Orbitron', sans-serif;
+  --rm-font-body: 'Poppins', sans-serif;
+
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--rm-color-bg-primary);
+  font-family: var(--rm-font-body);
+  color: var(--rm-color-font-primary);
+}
+
+*{
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: var(--rm-color-font-primary);
+}
+
+#content{
+  max-width: 1200px;
+  padding: 20px;
+  margin: auto;
+}

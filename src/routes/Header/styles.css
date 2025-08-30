@@ -1,0 +1,21 @@
+header{
+    background-color: var(--rm-color-bg-header);
+}
+
+.rm-header{
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--rm-font-title);
+}
+
+.rm-header h1{
+    font-size: 24px;
+}
+
+.rm-header a{
+    font-size: 18px;
+}

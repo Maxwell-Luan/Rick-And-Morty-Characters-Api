@@ -1,0 +1,41 @@
+.rm-section{
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.rm-char-profile{
+    background-color: var(--rm-color-bg-secondary);
+    display: flex;
+    gap: 20px;
+    height: 320px;
+    max-height: 320px;
+    padding: 20px;
+    border-radius: 16px;
+    align-items: center;
+}
+
+.rm-char-profile img{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    display: flex;
+}
+
+.rm-char-profile-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 20px;
+    color: var(--rm-color-font-accent);
+}
+
+.rm-char-profile-content p{
+    color: var(--rm-color-font-card);
+}
+
+.rm-char-profile-content div{
+    display: flex;
+    gap: 5px;
+}
