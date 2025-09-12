@@ -1,0 +1,21 @@
+.rm-button-page{
+    background-color: var(--rm-color-font-card);
+    display: flex;
+    padding: 20px;
+    border-radius: 6px;
+    width: 100px;
+    max-width: 100px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.rm-button-page:hover{
+    border: 2px solid var(--rm-color-accent-hover);
+}
+
+.rm-button-page p{
+    font-size: 20px;
+    color: var(--rm-color-bg-header);
+    font-weight: 700;
+}
