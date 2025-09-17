@@ -1,0 +1,35 @@
+.rm-searchbar-container{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 40px 0;
+}
+
+.rm-searchbar-form{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.rm-searchbar-form input{
+    width: 450px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: var(--rm-color-accent-primary);
+    color: var(--rm-color-bg-primary);
+    border: none;
+}
+
+.rm-searchbar-form input::placeholder{
+    color: var(--rm-color-bg-primary);
+}
+
+.rm-searchbar-form input:focus{
+    outline: none;
+}
+
+.rm-searchbar-form button{
+    width: 50px;
+    background-color: var(--rm-color-accent-secondary);
+    border: none;
+    font-size: 16px;
+}
