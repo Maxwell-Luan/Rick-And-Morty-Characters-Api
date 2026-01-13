@@ -2,7 +2,8 @@
 
 :root {
   /* 🎨 Backgrounds */
-  --rm-color-bg-primary: #0D1117;   /* fundo principal */
+  --rm-color-bg-primary: white;
+  /*--rm-color-bg-primary: #0D1117;*/   /* fundo principal */
   --rm-color-bg-secondary: #161B22; /* cards / superfícies */
   --rm-color-bg-header: #111827;    /* cabeçalho/nav */
 
